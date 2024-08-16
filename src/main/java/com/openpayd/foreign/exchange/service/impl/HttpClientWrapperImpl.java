@@ -1,11 +1,12 @@
 package com.openpayd.foreign.exchange.service.impl;
 
 import com.openpayd.foreign.exchange.service.HttpClientWrapper;
+import org.springframework.stereotype.Service;
+
 import java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import org.springframework.stereotype.Service;
 
 @Service
 public class HttpClientWrapperImpl implements HttpClientWrapper {
